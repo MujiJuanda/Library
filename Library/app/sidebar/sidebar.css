@@ -1,0 +1,50 @@
+/* Base Sidebar Styling */
+.main-sidebar {
+    position: fixed; /* Fix the sidebar to the viewport */
+    top: 0;         /* Position at the top */
+    left: 0;        /* Position at the left */
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+    z-index: 100; 
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .brand-link .brand-image {
+    opacity: 0.8;
+  }
+  
+  .sidebar .user-panel .image img {
+    border-radius: 50%;
+  }
+  
+  /* Adjust positioning for logout section */
+  .logout-section {
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+  }
+  
+  /* Active state styling */
+  .nav-sidebar .nav-link.active {
+    background-color: #1e282c;
+    color: #ffffff;
+  }
+  
+  /* Hover effect for links */
+  .nav-sidebar .nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+  }
+  
+  /* Sidebar text colors */
+  .nav-icon,
+  .nav-sidebar .nav-link p {
+    color: #adb5bd;
+  }
+  
+  .nav-sidebar .nav-link.active .nav-icon,
+  .nav-sidebar .nav-link.active p {
+    color: #ffffff;
+  }
+  
